@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 0cae0d5a-c20c-4a66-bd84-044b76940c73
+  title: PHY 252 text
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/dthuecks/PHY252-book
+  toc:
+    # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+    - file: source/00-Introduction.ipynb
+    - file: source/01-BasicProgramming.ipynb
+    - file: source/06-BasicPlotting.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
